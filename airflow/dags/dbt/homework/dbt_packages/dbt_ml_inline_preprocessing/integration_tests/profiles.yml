@@ -1,0 +1,19 @@
+integration_tests_postgres:
+  target: postgres
+  outputs:
+    postgres:
+      type: postgres
+      host: localhost
+      user: newuser
+      pass: password
+      port: 5432
+      dbname: test_database
+      schema: ml_inline_preprocessing_integration_tests_postgres
+      threads: 1
+
+integration_tests_duckdb:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "../duckdb/test_dbt_ml_inline_preprocessing.duckdb"
