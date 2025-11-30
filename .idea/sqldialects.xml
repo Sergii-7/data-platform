@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/airflow/dags/dbt/homework/dbt_packages/dbt_ml_inline_preprocessing/macros/robust_scale.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/airflow/dags/dbt/homework/dbt_packages/dbt_ml_inline_preprocessing/macros/standardize.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/airflow/dags/dbt/homework/models/mart/iris_processed.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/airflow/dags/dbt/homework/models/staging/stg_iris.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/airflow/dags/dbt/my_dbt_project/models/example/my_first_model.sql" dialect="GenericSQL" />
+  </component>
+</project>
